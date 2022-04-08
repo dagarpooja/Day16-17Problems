@@ -17,7 +17,7 @@ public class InsertionSort {
 		}
 	}
 
-	void printArray(int a[]) {
+	void printNumber(int a[]) {
 		int i;
 		int n = a.length;
 		for (i = 0; i < n; i++)
@@ -30,11 +30,11 @@ public class InsertionSort {
 
 		InsertionSort i = new InsertionSort();
 		System.out.println("before sorting array element are");
-		i.printArray(a);
+		i.printNumber(a);
 		i.insert(a);
 		System.out.println("after sorting array element are");
 
-		i.printArray(a);
+		i.printNumber(a);
 		System.out.println();
 
 	}
